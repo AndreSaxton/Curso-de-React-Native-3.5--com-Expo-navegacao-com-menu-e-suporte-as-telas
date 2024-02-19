@@ -1,0 +1,17 @@
+Serve para ajudar no debug.
+
+Entrar no github e baixar a versão mais recente, sem ser beta.
+https://github.com/infinitered/reactotron/releases?q=reactotron-app&expanded=true
+
+Após isso instalar.
+
+Na pasta da aplicação executar o abaixo para só instalar sem ir para Produção:
+'npm install --save-dev reactotron-react-native'
+
+Depois pode executar
+'npm start'
+
+No App.js import o Reactotron e adicionar 'Reactotron.configure().useReactNative().connect();'.
+No export adicionar 'Reactotron.log("alura");'
+Isso será exibido no programa do Reactotron.
+
